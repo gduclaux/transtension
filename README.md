@@ -1,2 +1,3 @@
 # transtension
-notebooks and data for Coulomb/Badlands tests
+
+notebooks and data for Coulomb/pyBadlands tests
