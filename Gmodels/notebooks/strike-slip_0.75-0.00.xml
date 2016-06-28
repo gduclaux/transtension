@@ -19,7 +19,7 @@
         <!-- Simulation start time [a] -->
         <start>0.</start>
         <!-- Simulation end time [a] -->
-        <end>250000.</end>
+        <end>500000.</end>
         <!-- Minim time step [a] -->
         <mindt>2.</mindt>
         <!-- Display interval [a] -->
@@ -60,7 +60,7 @@
             <!-- Displacement end time [a] -->
             <dend>100000</dend>
             <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
+            <dfile>/workspace/volume/transtension/transtension/data/Displacement_0.75_0.00.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -68,7 +68,7 @@
             <!-- Displacement end time [a] -->
             <dend>200000</dend>
             <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
+            <dfile>/workspace/volume/transtension/transtension/data/Displacement_0.75_0.00.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -76,7 +76,7 @@
             <!-- Displacement end time [a] -->
             <dend>300000</dend>
             <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
+            <dfile>/workspace/volume/transtension/transtension/data/Displacement_0.75_0.00.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -84,7 +84,7 @@
             <!-- Displacement end time [a] -->
             <dend>400000</dend>
             <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
+            <dfile>/workspace/volume/transtension/transtension/data/Displacement_0.75_0.00.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -92,7 +92,7 @@
             <!-- Displacement end time [a] -->
             <dend>500000</dend>
             <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
+            <dfile>/workspace/volume/transtension/transtension/data/Displacement_0.75_0.00.csv</dfile>
         </disp>
     </tectonic>
     
@@ -134,7 +134,7 @@
          <!-- The erodibility coefficient is scale-dependent and its value depend
               on lithology and mean precipitation rate, channel width, flood
               frequency, channel hydraulics. -->
-        <erodibility>5e-6</erodibility>
+        <erodibility>1e-5</erodibility>
     </sp_law>
     
     <!-- Linear slope diffusion parameters:
@@ -150,6 +150,6 @@
 
 
     <!-- Output folder path -->
-    <outfolder>/workspace/volume/transtension/transtension/Gmodels/output_1.00_1.00</outfolder>
+    <outfolder>/workspace/volume/transtension/transtension/Gmodels/output_0.75_0.00_kd1e-5</outfolder>
 
 </badlands>

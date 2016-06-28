@@ -19,7 +19,7 @@
         <!-- Simulation start time [a] -->
         <start>0.</start>
         <!-- Simulation end time [a] -->
-        <end>250000.</end>
+        <end>500000.</end>
         <!-- Minim time step [a] -->
         <mindt>2.</mindt>
         <!-- Display interval [a] -->
@@ -35,66 +35,7 @@
         <limit>100.</limit>
     </sea>
 
-    <!-- Tectonic structure -->
-    <tectonic>
-        <!-- Is 3D displacements on ? (1:on - 0:off). Default is 0.-->
-        <disp3d>1</disp3d>
-        <!-- Only relevant when 3D displacements is on.
-             Closest distance [m] between nodes before
-             merging happens. This is optional if not given
-             the merging distance is set to half the resolution
-             of the digital elevation input file. -->
-        <merge3d>100.</merge3d>
-        <!-- Only relevant when 3D displacements is required.
-             This is useful if the horizontal displacements provided
-             in each maps are larger than the TIN resolution. In this
-             case, it is recommended to split each displacement periods
-             in evenly spaced intervals of given time duration [a]. -->
-        <time3d>500.</time3d>
-        <!-- Number of tectonic events -->
-        <events>5</events>
-        <!-- Displacement definition -->
-        <disp>
-            <!-- Displacement start time [a] -->
-            <dstart>0</dstart>
-            <!-- Displacement end time [a] -->
-            <dend>100000</dend>
-            <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
-        </disp>
-        <disp>
-            <!-- Displacement start time [a] -->
-            <dstart>100000</dstart>
-            <!-- Displacement end time [a] -->
-            <dend>200000</dend>
-            <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
-        </disp>
-        <disp>
-            <!-- Displacement start time [a] -->
-            <dstart>200000</dstart>
-            <!-- Displacement end time [a] -->
-            <dend>300000</dend>
-            <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
-        </disp>
-        <disp>
-            <!-- Displacement start time [a] -->
-            <dstart>300000</dstart>
-            <!-- Displacement end time [a] -->
-            <dend>400000</dend>
-            <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
-        </disp>
-        <disp>
-            <!-- Displacement start time [a] -->
-            <dstart>400000</dstart>
-            <!-- Displacement end time [a] -->
-            <dend>500000</dend>
-            <!-- Displacement map [m] -->
-            <dfile>/workspace/volume/transtension/transtension/data/Displacement_1.00_1.00.csv</dfile>
-        </disp>
-    </tectonic>
+
     
     <!-- Precipitation structure -->
     <precipitation>
@@ -134,7 +75,7 @@
          <!-- The erodibility coefficient is scale-dependent and its value depend
               on lithology and mean precipitation rate, channel width, flood
               frequency, channel hydraulics. -->
-        <erodibility>5e-6</erodibility>
+        <erodibility>1e-5</erodibility>
     </sp_law>
     
     <!-- Linear slope diffusion parameters:
@@ -150,6 +91,6 @@
 
 
     <!-- Output folder path -->
-    <outfolder>/workspace/volume/transtension/transtension/Gmodels/output_1.00_1.00</outfolder>
+    <outfolder>/workspace/volume/transtension/transtension/Gmodels/output_0.0_0.0_kd1e-5</outfolder>
 
 </badlands>
