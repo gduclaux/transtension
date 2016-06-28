@@ -98,6 +98,7 @@ ENV/
 *.xdmf
 .ipynb_checkpoints
 Tmodels/output_*
+Tmodels/outputs*
 Gmodels/output_*
 .AppleDouble
 __MACOSX

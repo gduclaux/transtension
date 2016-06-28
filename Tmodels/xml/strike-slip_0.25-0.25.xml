@@ -4,7 +4,7 @@
     <!-- Regular grid structure -->
     <grid>
         <!-- Digital elevation model file path -->
-        <demfile>../data/nodes.csv</demfile>
+        <demfile>/workspace/volume/transtension/data/nodes.csv</demfile>
         <!-- Boundary type: flat, slope or wall -->
         <boundary>slope</boundary>
         <!-- Optional parameter (integer) used to decrease TIN resolution.
@@ -60,7 +60,7 @@
             <!-- Displacement end time [a] -->
             <dend>100000</dend>
             <!-- Displacement map [m] -->
-            <dfile>../data/Displacement_0.25_0.25.csv</dfile>
+            <dfile>/workspace/volume/transtension/data/Displacement_0.25_0.25.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -68,7 +68,7 @@
             <!-- Displacement end time [a] -->
             <dend>200000</dend>
             <!-- Displacement map [m] -->
-            <dfile>../data/Displacement_0.25_0.25.csv</dfile>
+            <dfile>/workspace/volume/transtension/data/Displacement_0.25_0.25.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -76,7 +76,7 @@
             <!-- Displacement end time [a] -->
             <dend>300000</dend>
             <!-- Displacement map [m] -->
-            <dfile>../data/Displacement_0.25_0.25.csv</dfile>
+            <dfile>/workspace/volume/transtension/data/Displacement_0.25_0.25.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -84,7 +84,7 @@
             <!-- Displacement end time [a] -->
             <dend>400000</dend>
             <!-- Displacement map [m] -->
-            <dfile>../data/Displacement_0.25_0.25.csv</dfile>
+            <dfile>/workspace/volume/transtension/data/Displacement_0.25_0.25.csv</dfile>
         </disp>
         <disp>
             <!-- Displacement start time [a] -->
@@ -92,7 +92,7 @@
             <!-- Displacement end time [a] -->
             <dend>500000</dend>
             <!-- Displacement map [m] -->
-            <dfile>../data/Displacement_0.25_0.25.csv</dfile>
+            <dfile>/workspace/volume/transtension/data/Displacement_0.25_0.25.csv</dfile>
         </disp>
     </tectonic>
 
@@ -148,6 +148,6 @@
     </creep>
 
     <!-- Output folder path -->
-    <outfolder>output_0.25_0.25_kd1e-5</outfolder>
+    <outfolder>/workspace/volume/transtension/Tmodels/output_0.25_0.25_kd1e-5</outfolder>
 
 </badlands>
