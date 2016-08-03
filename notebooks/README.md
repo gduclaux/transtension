@@ -2,7 +2,7 @@
 
 
 <div align="center">
-    <img width=500 src="https://github.com/badlands-model/Badlands-doc/blob/master/figures/sketch.png" alt="sketch Badlands" title="sketch of Badlands range of models."</img>
+    <img width=500 src="https://github.com/gduclaux/transtension/blob/master/figs/basin.png" alt="analyse basin Badlands" title="analyse basin Badlands"</img>
 </div>
 _Example of basin analyses done with BasinAnalyse IPython notebook._
 
